@@ -10,7 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_wear_os_connectivity: ^0.0.1
+  flutter_wear_os_connectivity:
+    git:
+      url: https://github.com/Wackymax/flutter_wear_os_connectivity
   flutter_watch_os_connectivity: ^1.0.0
   flutter_smart_watch_platform_interface: ^0.0.2
 
